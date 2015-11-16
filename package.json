@@ -1,0 +1,19 @@
+{
+  "name": "store-smc",
+  "version": "1.0.0",
+  "description": "This module stores, updates and fetches data for SMC classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergzak022/store-smc.git"
+  },
+  "author": "Sergey Zakharchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergzak022/store-smc/issues"
+  },
+  "homepage": "https://github.com/sergzak022/store-smc#readme"
+}
