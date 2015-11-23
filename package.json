@@ -4,7 +4,7 @@
   "description": "This module stores, updates and fetches data for SMC classes",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "node_modules/jasmine/bin/jasmine"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/sergzak022/store-smc/issues"
   },
-  "homepage": "https://github.com/sergzak022/store-smc#readme"
+  "homepage": "https://github.com/sergzak022/store-smc#readme",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "bluebird": "^3.0.5",
+    "mongoose": "^4.2.6"
+  }
 }
