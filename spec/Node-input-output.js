@@ -114,7 +114,8 @@ exports.output_0 = {
                 "name": "C++ Programming",
                 "units": 3,
                 "prerequisite": "None.",
-                "prerequisite_fixed": ""
+                "prerequisite_fixed": "",
+                "transfer": ["CSU"]
             }
         }, {
             "__v": 0,
@@ -129,7 +130,8 @@ exports.output_0 = {
                 "name": "Visual Basic",
                 "units": 3,
                 "prerequisite": "None.",
-                "prerequisite_fixed": ""
+                "prerequisite_fixed": "",
+                "transfer": ["CSU"]
             }
         }, {
             "__v": 0,
@@ -144,7 +146,8 @@ exports.output_0 = {
                 "name": "Databases",
                 "units": 3,
                 "prerequisite": "None.",
-                "prerequisite_fixed": ""
+                "prerequisite_fixed": "",
+                "transfer": ["CSU"]
             }
         }, {
             "__v": 0,
@@ -164,7 +167,8 @@ exports.output_0 = {
                 "name": "Server-Side Ruby Web Programming",
                 "units": 3,
                 "prerequisite": "Computer Science 60 and 80 and one of the following: CS 15 or 52 or 53A or 55.",
-                "prerequisite_fixed": "CS 60 and CS 80 and ( CS 15 or CS 52 or CS 53A or CS 55 )"
+                "prerequisite_fixed": "CS 60 and CS 80 and ( CS 15 or CS 52 or CS 53A or CS 55 )",
+                "transfer": ["CSU"]
             }
         }],
         "updated": []
@@ -184,7 +188,7 @@ exports.output_0 = {
                 "units": 3,
                 "prerequisite": "None.",
                 "prerequisite_fixed": "",
-                "trasfer": []
+                "transfer": ["CSU"]
             }
         }, {
             "__v": 0,
@@ -200,7 +204,7 @@ exports.output_0 = {
                 "units": 3,
                 "prerequisite": "None.",
                 "prerequisite_fixed": "",
-                "trasfer": []
+                "transfer": ["CSU"]
             }
         }, {
             "__v": 0,
@@ -216,7 +220,7 @@ exports.output_0 = {
                 "units": 3,
                 "prerequisite": "None.",
                 "prerequisite_fixed": "",
-                "trasfer": []
+                "transfer": ["CSU"]
             }
         }, {
             "__v": 0,
@@ -224,8 +228,8 @@ exports.output_0 = {
                 "type": "exactly",
                 "aggregateBy": null,
                 "select": 3,
-                "elements": ["564f9789e7581e8072fcfee5", {
-                    "elements": ["564f9789e7581e8072fcfee4", "564f9789e7581e8072fcfee3"],
+                "elements": ["56550b30a9cc0ddc97d5cccd", {
+                    "elements": ["56550b30a9cc0ddc97d5cccc", "56550b30a9cc0ddc97d5cccb"],
                     "select": 1,
                     "aggregateBy": null,
                     "type": "exactly"
@@ -237,14 +241,15 @@ exports.output_0 = {
                 "units": 3,
                 "prerequisite": "Computer Science 60 and 80 and one of the following: CS 15 or 52 or 53A or 55.",
                 "prerequisite_fixed": "CS 60 and CS 80 and ( CS 15 or CS 52 or CS 53A or CS 55 )",
-                "trasfer": []
+                "transfer": ["CSU"]
             }
         }],
         "updated": []
     },
     "unrecognized": {
         "inserted": []
-    }
+    },
+    "requirementsChanged": []
 };
 
 exports.input_1 = [{
@@ -359,7 +364,8 @@ exports.output_1 = {
                 "name": "Fundamentals of Microbiology",
                 "units": 5,
                 "prerequisite": "Chemistry 10 or eligibility for Chemistry 11, and Physiology 3 or Biology 3 or 21.",
-                "prerequisite_fixed": "CHEM 10 and ( PHYS 3 or BIOL 3 or BIOL 21 )"
+                "prerequisite_fixed": "CHEM 10 and ( PHYS 3 or BIOL 3 or BIOL 21 )",
+                "transfer": ["UC", "CSU"]
             }
         }, {
             "__v": 0,
@@ -379,7 +385,8 @@ exports.output_1 = {
                 "name": "Server-Side Ruby Web Programming",
                 "units": 3,
                 "prerequisite": "Computer Science 60 and 80 and one of the following: CS 15 or 52 or 53A or 55.",
-                "prerequisite_fixed": "CS 60 and CS 80 and ( CS 15 or CS 52 or CS 53A or CS 55 )"
+                "prerequisite_fixed": "CS 60 and CS 80 and ( CS 15 or CS 52 or CS 53A or CS 55 )",
+                "transfer": ["CSU"]
             }
         }],
         "updated": []
@@ -391,8 +398,8 @@ exports.output_1 = {
                 "type": "exactly",
                 "aggregateBy": null,
                 "select": 2,
-                "elements": ["564f916fed6b9f746338001b", {
-                    "elements": ["564f916fed6b9f746338001c", "564f916fed6b9f746338001d", "564f916fed6b9f746338001e"],
+                "elements": ["56550b870e98472c9451d2fa", {
+                    "elements": ["56550b870e98472c9451d2fb", "56550b870e98472c9451d2fc", "56550b870e98472c9451d2fd"],
                     "select": 1,
                     "aggregateBy": null,
                     "type": "exactly"
@@ -404,7 +411,7 @@ exports.output_1 = {
                 "units": 5,
                 "prerequisite": "Chemistry 10 or eligibility for Chemistry 11, and Physiology 3 or Biology 3 or 21.",
                 "prerequisite_fixed": "CHEM 10 and ( PHYS 3 or BIOL 3 or BIOL 21 )",
-                "trasfer": []
+                "transfer": ["UC", "CSU"]
             }
         }, {
             "__v": 0,
@@ -412,8 +419,8 @@ exports.output_1 = {
                 "type": "exactly",
                 "aggregateBy": null,
                 "select": 3,
-                "elements": ["564f916fed6b9f746338001f", "564f916fed6b9f7463380020", {
-                    "elements": ["564f916fed6b9f7463380021", "564f916fed6b9f7463380022", "564f916fed6b9f7463380023", "564f916fed6b9f7463380024"],
+                "elements": ["56550b870e98472c9451d2fe", "56550b870e98472c9451d2ff", {
+                    "elements": ["56550b870e98472c9451d300", "56550b870e98472c9451d301", "56550b870e98472c9451d302", "56550b870e98472c9451d303"],
                     "select": 1,
                     "aggregateBy": null,
                     "type": "exactly"
@@ -425,7 +432,7 @@ exports.output_1 = {
                 "units": 3,
                 "prerequisite": "Computer Science 60 and 80 and one of the following: CS 15 or 52 or 53A or 55.",
                 "prerequisite_fixed": "CS 60 and CS 80 and ( CS 15 or CS 52 or CS 53A or CS 55 )",
-                "trasfer": []
+                "transfer": ["CSU"]
             }
         }],
         "updated": []
@@ -542,5 +549,6 @@ exports.output_1 = {
                 "name": "CS 55"
             }
         }]
-    }
+    },
+    "requirementsChanged": []
 };

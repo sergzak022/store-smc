@@ -4,7 +4,7 @@
   "description": "This module stores, updates and fetches data for SMC classes",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/jasmine/bin/jasmine"
+    "test": "jasmine NODE_ENV=test"
   },
   "repository": {
     "type": "git",
