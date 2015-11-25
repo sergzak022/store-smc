@@ -42,7 +42,7 @@ describe('Node', function() {
     it('should update db', function(done) {
         ClassNode.update(input_output.input_1).then(function(res) {
             res = fixRes(res);
-            
+
             expect(res.unmodified).toEqual(input_output.output_1.unmodified);
             expect(res.unrecognized).toEqual(input_output.output_1.unrecognized);
 
@@ -96,6 +96,22 @@ describe('Node', function() {
 
                     expect(obj.requirements.elements[1].elements[0].attributes).toEqual(elements[1].attributes);
                     expect(obj.requirements.elements[1].elements[1].attributes).toEqual(elements[2].attributes);
+
+                    ClassNode.removeAll().then(function() {
+                        Unrecognized.remove({}).then(function() {
+                            done();
+                        });
+                    });
+                });
+        });
+    });
+
+it('should find updated elements', function(done) {
+        ClassNode.update(input_output.input_1).then(function(res) {
+            ClassNode.deepFindByUserIds(['MCRBIO 1'])
+                .then(function(objs) {
+
+                    expect(objs[0]).toEqual(input_output.mcrbio_1_deep);
 
                     ClassNode.removeAll().then(function() {
                         Unrecognized.remove({}).then(function() {

@@ -552,3 +552,65 @@ exports.output_1 = {
     },
     "requirementsChanged": []
 };
+
+exports.mcrbio_1_deep = {
+    "requirements": {
+        "aggregateBy": null,
+        "select": 2,
+        "elements": [{
+            "requirements": {
+                "aggregateBy": null,
+                "select": 0,
+                "elements": [],
+                "type": "exactly"
+            },
+            "attributes": {
+                "name": "CHEM 10"
+            }
+        }, {
+            "type": "exactly",
+            "aggregateBy": null,
+            "select": 1,
+            "elements": [{
+                "requirements": {
+                    "aggregateBy": null,
+                    "select": 0,
+                    "elements": [],
+                    "type": "exactly"
+                },
+                "attributes": {
+                    "name": "PHYS 3"
+                }
+            }, {
+                "requirements": {
+                    "aggregateBy": null,
+                    "select": 0,
+                    "elements": [],
+                    "type": "exactly"
+                },
+                "attributes": {
+                    "name": "BIOL 3"
+                }
+            }, {
+                "requirements": {
+                    "aggregateBy": null,
+                    "select": 0,
+                    "elements": [],
+                    "type": "exactly"
+                },
+                "attributes": {
+                    "name": "BIOL 21"
+                }
+            }]
+        }],
+        "type": "exactly"
+    },
+    "attributes": {
+        "id": "MCRBIO 1",
+        "name": "Fundamentals of Microbiology",
+        "units": 5,
+        "prerequisite": "Chemistry 10 or eligibility for Chemistry 11, and Physiology 3 or Biology 3 or 21.",
+        "prerequisite_fixed": "CHEM 10 and ( PHYS 3 or BIOL 3 or BIOL 21 )",
+        "transfer": ["UC", "CSU"]
+    }
+};
